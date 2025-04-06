@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <script defer src="dashboard.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>🎓 Student Management System</h1>
+      <p>Welcome back, Student!</p>
+    </header>
+
+    <section class="dashboard">
+      <div class="card" onclick="openSection('courses')">
+        <img src="img/courses.png" alt="Courses" />
+        <h3>Courses</h3>
+      </div>
+      <div class="card" onclick="openSection('quizzes')">
+        <img src="img/quiz.png" alt="Quizzes" />
+        <h3>Quizzes</h3>
+      </div>
+      <div class="card" onclick="openSection('exams')">
+        <img src="img/exam.png" alt="Exams" />
+        <h3>Exams</h3>
+      </div>
+      <div class="card" onclick="openSection('announcements')">
+        <img src="img/announcement.png" alt="Announcements" />
+        <h3>Announcements</h3>
+      </div>
+      <div class="card" onclick="openSection('grades')">
+        <img src="img/grades.png" alt="Grades" />
+        <h3>Grades</h3>
+      </div>
+      <div class="card" onclick="openSection('attendance')">
+        <img src="img/attendance.png" alt="Attendance" />
+        <h3>Attendance</h3>
+      </div>
+      <div class="card" onclick="openSection('feedback')">
+        <img src="img/feedback.png" alt="Feedback" />
+        <h3>Feedback</h3>
+      </div>
+    </section>
+  </body>
+</html>

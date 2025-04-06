@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">📘</div>
+        <nav>
+          <div class="nav-item active">
+            <span>🏠</span>
+            <p>Home</p>
+          </div>
+          <div class="nav-item">
+            <a href="notification.html"><span>🔔</span></a>
+            <p>Notification</p>
+            <span class="badge">!</span>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <div class="main">
+        <!-- Top bar -->
+        <header class="topbar">
+          <h2>Good Morning, Student!</h2>
+          <div class="topbar-right">
+            <input type="text" placeholder="Search Your App" />
+            <span class="icon">⚙️</span>
+            <span class="icon">🧑‍🏫</span>
+            <span class="icon user">👤</span>
+          </div>
+        </header>
+
+        <!-- Content -->
+        <div class="content">
+          <section class="apps">
+            <h3>MY CLASSROOM ALL APPS</h3>
+            <div class="cards">
+              <div class="card" data-section="Classroom">
+                <a href="class.html"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+                    alt="Classroom"
+                /></a>
+                <p>Classroom</p>
+              </div>
+              <div class="card" data-section="Live Classes">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/4222/4222790.png"
+                />
+                <p>Live Classes</p>
+              </div>
+              <div class="card" data-section="Grades">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/4712/4712160.png"
+                />
+                <p>Grades</p>
+              </div>
+              <div class="card" data-section="Attendance">
+                <a href="attendance.html"
+                  ><img
+                    src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png"
+                /></a>
+                <p>Attendance</p>
+              </div>
+              <div class="card" data-section="Assignments">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5505/5505653.png"
+                />
+                <p>Assignments</p>
+              </div>
+              <div class="card" data-section="Quizzes">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png"
+                />
+                <p>Quizzes</p>
+              </div>
+              <div class="card" data-section="Exams">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
+                />
+                <p>Exams</p>
+              </div>
+              <div class="card" data-section="Announcements">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/10014/10014920.png"
+                />
+                <p>Announcements</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
